@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ol {
+        list-style-type: decimal;
+      }
+      ul {
+        list-style-type: disc;
+      }
+      .sun {
+        ol {
+          list-style-type: lower-alpha;
+        }
+        ul {
+          list-style-type: square;
+        }
+      }
+      .sun2 {
+        ul {
+          list-style-type: circle;
+        }
+        ol {
+          list-style-type: upper-alpha;
+        }
+      }
+      .sun3 {
+        ul li::before {
+          margin-right: 10px;
+        }
+        ol {
+          list-style-type: none;
+        }
+        ol li:before {
+          margin-right: 10px;
+          counter-increment: list-item;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>list style types 1</p>
+    <ol>
+      <li>Student 1</li>
+      <li>Student 2</li>
+      <li>Student 3</li>
+    </ol>
+    <ul>
+      <li>student 4</li>
+      <li>student 5</li>
+      <li>student 6</li>
+    </ul>
+    <hr />
+    <div class="sun">
+      Custom List Style 2
+      <ol>
+        <li>Student 1</li>
+        <li>Student 2</li>
+        <li>Student 3</li>
+      </ol>
+      <ul>
+        <li>student 4</li>
+        <li>student 5</li>
+        <li>student 6</li>
+      </ul>
+    </div>
+    <hr />
+    <div class="sun2">
+      Custom Bullets 3
+      <ol>
+        <li>Student 1</li>
+        <li>Student 2</li>
+        <li>Student 3</li>
+      </ol>
+      <ul>
+        <li>student 4</li>
+        <li>student 5</li>
+        <li>student 6</li>
+      </ul>
+    </div>
+    <hr />
+    <div class="sun3">
+      List type image 4
+      <ol>
+        <li>Student 1</li>
+        <li>Student 2</li>
+        <li>Student 3</li>
+      </ol>
+      <ul>
+        <li>student 4</li>
+        <li>student 5</li>
+        <li>student 6</li>
+      </ul>
+    </div>
+  </body>
+</html>
