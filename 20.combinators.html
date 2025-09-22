@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container p {
+             color:red;
+
+        }
+        .container2 p{
+                color:rgb(2, 2, 244);
+            }
+            .container3{
+                p{
+                    color:rgb(17, 227, 17);
+                }
+            }
+
+        
+       
+        
+    </style>
+</head>
+<body>
+    <!--descendant selector  -->
+    <div class="container">
+        <p>this paragraph is inside a container div.</p>
+        <h5> this haeding is not style</h5>
+    </div>
+     <p>this paragraph is inside a container div.</p>
+<hr>
+<div class="container2">
+ <p>this paragraph is inside a container div.
+<span class="highlight"><p>this paragraph is child selector</p></span>
+  
+</div><hr>
+
+<p>this  is first paragraph</p>
+<p>this is the second paragraph</p>
+<div class="container3">
+    <p>this paragraph is not affected by the adjacent sibling selector</p>
+</div>
+</div><hr>
+
+</body>
+</html>
