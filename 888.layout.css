@@ -1,0 +1,28 @@
+.{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+
+}
+.container{
+    height:100vh;
+    color: rgb(10, 233, 166);
+    display:grid;
+    background-color:black;
+    grid-template-areas:'navbar navbar navbar'
+    'sidebar main main'
+    'sidebar box1 box2'
+     'sidebar footer footer';     
+     grid-gap:.6rem;
+     text-align: center; 
+     font-size:2rem;
+     grid-template-columns:0.8fr 2fr 1fr;
+     grid-template-rows: 0.8fr 2.5fr 1.5fr 0.5fr;
+}
+.main{
+    background-color: red;rid-template-columns:0.8fr 2fr 1fr;
+     g
+     grid-template-rows: 0.8fr 2.5fr 1.5fr 0.5fr;           ;
+}
+}

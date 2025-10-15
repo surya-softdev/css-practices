@@ -1,0 +1,46 @@
+.container .sun2{
+    width:200px;
+    height:200px;
+    background-color:red;
+    border:3px solid green;
+   
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items:end;
+    height: 100hv;
+    text-align: center;
+
+}
+.container .sun3{
+    font-size: large;
+    text-align: center;
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    animation-name:surya;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    margin:100px;
+
+}
+.sun2:hover{
+     background-color: blue;
+}
+@keyframes surya{
+    0%{
+        background-color:green;
+        transform:translate(0px,0px);
+    }
+    25%{
+        background-color: blueviolet;
+        transform:translate(100px,100px);
+    }
+    50%{
+        background-color:green;
+        transform: translate(100px,200px);
+    }
+   
+}

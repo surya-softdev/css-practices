@@ -1,0 +1,38 @@
+.sun1 .sun2 {
+  color: rgb(237, 7, 7);
+  text-align: center;
+}
+.sun1 .sun3 {
+  width: 200px;
+  height: 200px;
+  margin: 70px;
+  background-color: blue;
+  animation-name: color;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border: radius 300px;
+
+  
+}
+@keyframes color {
+  0% {
+    background-color: red;
+    transform: translate(0,0);
+  }
+  25%{
+    transform: translate(100px,0);
+    background-color:green;
+  }
+  50%{
+    transform: translate(100px,100px);
+    background-color: blueviolet;
+  }
+  75%{
+    transform: translate(0,100px);
+    background-color:orangered;
+  }
+  100%{
+    transform: translate(0,0);
+    background-color: ;
+  }
+}

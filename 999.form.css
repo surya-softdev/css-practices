@@ -1,0 +1,16 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:blue;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    margin:0;
+
+}
+.form-container{
+    border:1px solid black;
+    height:300px;
+    width:200px;
+}
+
+

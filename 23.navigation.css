@@ -1,0 +1,24 @@
+.navigation-bar {
+  background-color: rgb(53, 53, 53);
+  padding: 10px;
+}
+.navigation-bar ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+.navigation-bar li {
+  float: left;
+  text-align: end;
+}
+.navigation-bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px, 10px;
+}
+.navigation-bar li a:hover {
+  background-color: brown;
+}
